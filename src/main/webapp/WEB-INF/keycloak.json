@@ -1,6 +1,6 @@
 {
   "realm": "master",
-  "auth-server-url": "http://http://keycloakserver-wildflyswarm.apps.10.2.2.2.xip.io/auth",
+  "auth-server-url": "http://keycloakserver-wildflyswarm.apps.10.2.2.2.xip.io/auth",
   "ssl-required": "external",
   "resource": "keycloakclient",
   "public-client": true
