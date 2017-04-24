@@ -1,0 +1,19 @@
+<web-app>
+    <module-name>rest</module-name>
+    
+    <security-constraint>
+        <web-resource-collection>
+            <url-pattern>/*</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <!-- Role of the previously created user -->
+            <role-name>admin</role-name>
+        </auth-constraint>
+    </security-constraint>
+
+    <login-config>
+        <!-- Set authorization method to KEYCLOAK instead of BASIC --> 
+        <auth-method>KEYCLOAK</auth-method>
+        <realm-name>master</realm-name>
+    </login-config>
+</web-app>
